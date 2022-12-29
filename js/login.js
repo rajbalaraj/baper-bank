@@ -6,7 +6,7 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     const password = passwordField.value;
     //console.log(password)
     if (email === 'sontan@bap.com' && password === 'secret') {
-        window.location.href = 'back.html'
+        window.location.href = 'bank.html'
     }
     else {
         alert('denger')
